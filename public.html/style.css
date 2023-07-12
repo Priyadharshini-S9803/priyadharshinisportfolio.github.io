@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+}
+
+a:hover{
+    color:white;
+}
+a{
+    text-decoration: dashed;
+}
+
+ul{
+    background-color:black;
+    padding:10px;
+    margin-bottom: 30px;
+    display:flex;
+    justify-content: flex-end;
+    text-decoration-color: aliceblue;
+}
+li{
+    width: 30px;
+    margin:30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.abt{
+    background-color:lightcoral;
+    text-align: center;
+    font-size: 40px;
+    
+    
+}
+.abt p{
+    font-size: 30px;
+}
+.resume{
+    font-size: 30px;
+    text-align: center;
+
+}
+.obj,.education,.program,.lang,.certify{
+    background-color: rgb(92, 177, 205);
+    padding:80px;
+    margin:400px;
+    text-align: left;
+    
+
+    
+}
+.obj p{
+    font-size: larger;
+    text-align: center;
+
+}
+
+
+body{
+    background-color: lightcoral;
+}
+
+.contact{
+    background-color: rgb(92, 177, 205);
+    padding:80px;
+    margin:300px;
+    text-align: center;
+    position:relative;
+    font-size:large;
+    
+}
+.contact h3,p{
+    font-size: larger;
+    text-align: center;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.proj1 {
+    flex: 5;
+    margin: 120px;
+    padding: 50px;
+    width: 400px;
+    background-color: rgb(196, 48, 198);
+    float:left;
+    position:relative;
+    
+}  
+
+.proj2{
+    flex: 5;
+    margin: 120px;
+    padding: 50px;
+    width: 400px;
+    background-color: rgb(48, 175, 198);
+    float: right;
+    position:relative;
+    
+    
+} 
+.container{
+    background-color: rgb(181, 136, 178);
+    margin:20px;
+    padding:50px;
+    
+}
+.image{
+    width:50px;
+    height:60px;
+}
+.proj1 h1{
+    text-align: center;
+}
+
+
+
